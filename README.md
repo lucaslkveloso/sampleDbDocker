@@ -1,4 +1,5 @@
 # Criação de um banco de dados simples para testes com docker
+# Create a simple database to execute tests with docker
 
 Execute o powerShell do windows
 
@@ -84,7 +85,7 @@ Execute o comando para executar o mysql na porta padrão
 ```
 docker run --name hotel-mysql -p 3306:3306 -d hotel-db
 ```
-Crie um arquivo chamado scrip mysql na mesma pasta dos demais
+Crie um arquivo chamado script.sql na mesma pasta dos demais
 ```sql
 USE hotel;
 
